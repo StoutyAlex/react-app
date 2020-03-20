@@ -9,7 +9,8 @@
     "test:watch": "jest --watch",
     "test:lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start:dev": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode production"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-app-polyfill": "^1.0.6",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
