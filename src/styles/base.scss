@@ -1,0 +1,17 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  font-family: Segoe UI,Tahoma,sans-serif;
+}
+
+*::before,
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
